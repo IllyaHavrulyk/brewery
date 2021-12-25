@@ -1,16 +1,20 @@
 package com.havrulyk.brewery.web.services.v2;
 
-public class BeerServiceV2Impl implements BeerServiceV2{
-  @Service
-  public class BeerServiceV2Impl implements BeerServiceV2 {
+import com.havrulyk.brewery.web.model.v2.BeerDtoV2;
+import org.springframework.stereotype.Service;
+
+import java.util.UUID;
+
+@Service
+public class BeerServiceV2Impl implements BeerServiceV2 {
     @Override
     public BeerDtoV2 getBeerById(UUID beerId) {
-      return null;
+        return null;
     }
 
     @Override
     public BeerDtoV2 saveNewBeer(BeerDtoV2 beerDto) {
-      return null;
+        return null;
     }
 
     @Override
@@ -22,6 +26,4 @@ public class BeerServiceV2Impl implements BeerServiceV2{
     public void deleteById(UUID beerId) {
 
     }
-  }
-
 }

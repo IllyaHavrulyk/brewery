@@ -1,5 +1,9 @@
 package com.havrulyk.brewery.web.services.v2;
 
+import com.havrulyk.brewery.web.model.v2.BeerDtoV2;
+
+import java.util.UUID;
+
 public interface BeerServiceV2 {
   BeerDtoV2 getBeerById(UUID beerId);
 
