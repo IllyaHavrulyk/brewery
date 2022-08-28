@@ -58,7 +58,7 @@ public class BeerControllerTest {
   }
 
   @Test
-  public void handlePost() throws Exception {
+  public void createBeerTest() throws Exception {
     //given
     BeerDto beerDto = validBeer;
     beerDto.setId(null);
